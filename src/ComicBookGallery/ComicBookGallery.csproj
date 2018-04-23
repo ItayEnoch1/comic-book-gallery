@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\bone-50.jpg" />
+    <Content Remove="wwwroot\images\the-amazing-spider-man-657.jpg" />
+    <Content Remove="wwwroot\images\the-amazing-spider-man-700.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="bin\Debug\net461\ComicBookGallery.deps.json" />
   </ItemGroup>
 
@@ -321,6 +327,21 @@
     <None Include="bin\Debug\net461\System.Xml.XmlSerializer.dll" />
     <None Include="bin\Debug\net461\System.Xml.XPath.dll" />
     <None Include="bin\Debug\net461\System.Xml.XPath.XDocument.dll" />
+    <None Include="wwwroot\Content\bootstrap.min.css" />
+    <None Include="wwwroot\Content\site.css" />
+    <None Include="wwwroot\Fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\Fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\Fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\Fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\images\bone-50.jpg" />
+    <None Include="wwwroot\images\the-amazing-spider-man-657.jpg" />
+    <None Include="wwwroot\images\the-amazing-spider-man-700.jpg" />
+    <None Include="wwwroot\Scripts\bootstrap.min.js" />
+    <None Include="wwwroot\Scripts\jquery-1.10.2.intellisense.js" />
+    <None Include="wwwroot\Scripts\jquery-1.10.2.js" />
+    <None Include="wwwroot\Scripts\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\Scripts\jquery-1.10.2.min.map" />
+    <None Include="wwwroot\Scripts\modernizr-2.6.2.js" />
   </ItemGroup>
 
 </Project>
